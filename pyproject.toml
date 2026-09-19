@@ -1,0 +1,11 @@
+[project]
+name = "fly-vial-writeup"
+version = "0.1.0"
+description = "Note on the fly_vial assortative IBD F split. Locks stay on the trees."
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = ["pytest", "reportlab", "pypdfium2", "pillow"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

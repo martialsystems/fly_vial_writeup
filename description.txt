@@ -1,0 +1,1 @@
+Note on the fly_vial assortative IBD F split. Locks stay on the trees. Index: gist 12835f74.
