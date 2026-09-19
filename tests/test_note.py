@@ -37,6 +37,7 @@ def test_readme_points_at_note_and_index() -> None:
     assert text.startswith("# fly_vial_writeup\n")
     assert "NOTE.md" in text
     assert INDEX in text
+    assert "66e715e2" in text
     assert "—" not in text
     desc = (REPO / "description.txt").read_text(encoding="utf-8")
     assert "12835f74" in desc

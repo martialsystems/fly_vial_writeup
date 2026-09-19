@@ -2,7 +2,7 @@
 
 Note on the fly_vial assortative IBD F split. Locks stay on the trees.
 
-The argument is [NOTE.md](NOTE.md). The PDF is [docs/fly_vial_f_note.pdf](docs/fly_vial_f_note.pdf). The SHA index is gist [12835f74](https://gist.github.com/martialsystems/12835f747d6360781f3cc7f91f243178). Do not restamp `@e2e22b7` or F = 0.524 / 0.034. This git is not a finding-tree row.
+The argument is [NOTE.md](NOTE.md). The PDF is [docs/fly_vial_f_note.pdf](docs/fly_vial_f_note.pdf). Pasteable copy: gist [66e715e2](https://gist.github.com/martialsystems/66e715e2446f68a6abf5a72f4a32c905). The SHA index is gist [12835f74](https://gist.github.com/martialsystems/12835f747d6360781f3cc7f91f243178). Do not restamp `@e2e22b7` or F = 0.524 / 0.034. This git is not a finding-tree row.
 
 ## How to run
 
