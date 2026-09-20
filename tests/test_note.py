@@ -34,6 +34,10 @@ def test_note_lede() -> None:
     assert "No AI tool is an author" in text
     assert "Grok (xAI)" in text
     assert "did not touch the engine" in text
+    assert "Cite this lock" in text
+    assert "swh:1:snp:1ca342b7bacb5c9f996cf97a39933df3eb6c056e" in text
+    assert "releases/tag/science-e2e22b7" in text
+    assert "10.5281" not in text
     words = re.findall(r"[A-Za-z0-9][A-Za-z0-9'./_-]*", text)
     assert 1200 <= len(words) <= 2800
 
@@ -70,6 +74,8 @@ def test_pdf_and_figure_exist() -> None:
     assert "10.1016/j.cell.2026.08.015" in text
     assert "Keywords" in text
     assert "No AI tool is an author" in text
+    assert "swh:1:snp:1ca342b7bacb5c9f996cf97a39933df3eb6c056e" in text
+    assert "10.5281" not in text
     assert "What it is not" not in text
     assert "—" not in text
     assert len(pdf) >= 4

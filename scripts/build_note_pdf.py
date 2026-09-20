@@ -235,6 +235,12 @@ def build() -> Path:
             st["BodyJ0"],
         )
     )
+    story.append(
+        Paragraph(
+            "2026-09-20: cite the GitHub Release and SWH snapshot swh:1:snp:1ca342b7bacb5c9f996cf97a39933df3eb6c056e. Gist Artifact DOI stays empty.",
+            st["BodyJ0"],
+        )
+    )
 
     doc = SimpleDocTemplate(
         str(OUT),

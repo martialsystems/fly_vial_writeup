@@ -121,6 +121,14 @@ Text. The computational note (`NOTE.md` / `docs/fly_vial_f_note.pdf`), the metho
 
 Release: https://github.com/martialsystems/fly_vial/releases/tag/science-e2e22b7
 
+## Cite this lock (2026-09-20)
+
+Martial Systems LLC. (2026). fly_vial assortative IBD F lock (science-e2e22b7) [Computer software]. https://github.com/martialsystems/fly_vial/releases/tag/science-e2e22b7
+
+SWHID: swh:1:snp:1ca342b7bacb5c9f996cf97a39933df3eb6c056e
+
+There is no DOI. The gist Artifact DOI cell stays empty until a `10.` identifier exists.
+
 ## Sources (2026-09-20)
 
 Records checked on Crossref, 2026-09-20.
