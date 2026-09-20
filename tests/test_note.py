@@ -28,6 +28,12 @@ def test_note_lede() -> None:
     assert "unconstrained evolutionary toy" in text
     assert "templates, not the stepper" in text or "templates not the stepper" in text
     assert "Wright" in text
+    assert "10.1093/genetics/16.2.97" in text
+    assert "10.1038/s41586-024-07558-y" in text
+    assert "10.1016/j.cell.2026.08.015" in text
+    assert "No AI tool is an author" in text
+    assert "Grok (xAI)" in text
+    assert "did not touch the engine" in text
     words = re.findall(r"[A-Za-z0-9][A-Za-z0-9'./_-]*", text)
     assert 1200 <= len(words) <= 2800
 
@@ -60,7 +66,10 @@ def test_pdf_and_figure_exist() -> None:
     assert "e2e22b7" in text
     assert "Revisions" in text
     assert "2026-09-19" in text
+    assert "2026-09-20" in text
+    assert "10.1016/j.cell.2026.08.015" in text
     assert "Keywords" in text
+    assert "No AI tool is an author" in text
     assert "What it is not" not in text
     assert "—" not in text
     assert len(pdf) >= 4

@@ -222,10 +222,16 @@ def build() -> Path:
             )
         )
 
-    story.append(Paragraph("Revisions (2026-09-19)", st["H"]))
+    story.append(Paragraph("Revisions", st["H"]))
     story.append(
         Paragraph(
             "2026-09-19: first methods note from the locked seed-1 logs and the three-seed screen. Vampire trees stay in vial_vampire_writeup.",
+            st["BodyJ0"],
+        )
+    )
+    story.append(
+        Paragraph(
+            "2026-09-20: sources (Wright 1931, Dorkenwald 2024, Berg 2026); accountability sentence. Release pointer. No DOI.",
             st["BodyJ0"],
         )
     )
